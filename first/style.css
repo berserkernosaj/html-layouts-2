@@ -1,0 +1,97 @@
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+  padding-bottom: 60px;
+}
+.top-sec{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+.red{
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+  background-color: red;
+  margin-right: 25px;
+}
+.blue{
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+  margin-right: 25px;
+  background-color: blue;
+}
+.black{
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+  background-color: black;
+}
+.grammar-sec{
+  width: 800px;
+  font-size: 17;
+  font-family:serif;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+.sec3{
+  height: 300px;
+  width: 800px;
+  margin: auto;
+}
+.leftsec3{
+  float: left;
+  width: 250px;
+  background-color: red;
+  height: inherit;
+  padding-top: 80px;
+}
+.rightsec3{
+  width: 550px;
+  height: inherit;
+  background: blue;
+  float: right;
+}
+.bottom-sec{
+  height: 140px;
+  width: 800px;
+  margin: auto;
+  padding-top: 30px;
+}
+.bs-1{
+  height: inherit;
+  width: 600px;
+  background-color: blue;
+  float: left;
+}
+.bs-2{
+  height: inherit;
+  width: 25px;
+  background-color: red;
+  float: left;
+}
+.bs-3{
+  height: inherit;
+  width: 150px;
+  background-color: black;
+  float: left;
+}
+.bs-4{
+  height: inherit;
+  width: 25px;
+  background-color: red;
+  float: left;
+}
